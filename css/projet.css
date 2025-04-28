@@ -23,7 +23,7 @@
 .title-left {
     font-weight: 600;
     font-size: 24px;
-    border-left: 4px solid #ffafcc;
+    border-left: 4px solid #be9ae8;
     padding-left: 15px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .skill-mf .progress-bar {
-    background-color: #ffafcc;
+    background-color: #be9ae8;
 }
 
 ul {
@@ -43,14 +43,10 @@ ul {
 }
 
 #goGitHubProject {
-    background-color: #ffafcc; 
+    background-color: #be9ae8; 
     color: white;
     border: none;
 }
-
-#send-mail:hover {
-    background-color: #fd92b9; 
-  }
 
 
 .shadow-custom {
