@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisa - Book</title>
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body id="page-body">
+
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar">
+        <div class="container-fluid navbar-container">
+            <a class="navbar-brand" href="#">Book de réalisations</a>
+            <div id="navbar-links" class="navbar-menu">
+                <!-- Liens de la navbar -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#hero" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End : Navbar -->
+
+
+    <!-- Intro -->
+    <section id="hero" class="d-flex align-items-center vh-100 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Texte à gauche -->
+                <div class="col-md-6 text-start">
+                    <h1 class="display-4 fw-bold animate-fade-in">Bienvenue sur mon book de réalisations</h1>
+                    <p class="text-first handwriting-title animate-fade-in">Étudiante passionnée par la création de solutions web !</br>
+                        Curieuse et créative, j’aime donner vie à des idées à travers des applications.
+                    </p>
+                </div>
+
+                <!-- Image à droite -->
+                <div class="col-md-6 text-center">
+                    <img src="img/portrait/devs.png" alt="Portrait de Lili"
+                        class="img-fluid rounded shadow-lg portrait-img animate-fade-in" id="portrait-img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End : Intro -->
+
+    <!-- A propos -->
+    <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-shadow-full">
+                        <div class="row">
+
+                            <!-- Colonne gauche : photo, infos, compétences -->
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="">
+                                            <img src="img/portrait/portrait-cv.png"
+                                                class="img-fluid rounded b-shadow-a" alt="Lili">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-7">
+                                        <div class="about-info">
+                                            <p><span class="title-s fw-bold">Nom: </span> <span class="handwriting">Lisa W.</span></p>
+                                            <p><span class="title-s fw-bold">Profil: </span> <span class="handwriting">Développeuse
+                                                    web</span></p>
+                                            <p><span class="title-s fw-bold">Email: </span> <span class="handwriting">Lisa.wrmr@gmail.com</span>
+                                            <p><span class="title-s fw-bold">Motivation : </span> <span class="handwriting">100%</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Compétences -->
+                                <div class="skill-mf">
+                                    <h5 class="title-s">Compétences</h5>
+                                    <span>HTML/CSS/JAVASCRIPT</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 73%;"
+                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>PHP</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 68%;"
+                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>WINDEV/WEBDEV</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%;"
+                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>C#</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 62%;"
+                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>SQL</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 78%;"
+                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>DOCKER/GITHUB ACTIONS</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%;"
+                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>POWERSHELL</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%;"
+                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Colonne droite : texte de présentation -->
+                            <div class="col-md-6">
+                                <div class="about-me pt-4 pt-md-0">
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            À propos de moi
+                                        </h5>
+                                    </div>
+                                    <p class="lead handwriting">
+                                        Moi c'est Lisa, étudiante en BTS SIO option SLAM, et je fais mon alternance au CTIA, 
+                                        où je travaille en collaboration avec une équipe sur des solutions web et logiciels aux services des mutuelles.
+                                    </p>
+                                    <p class="lead handwriting">
+                                        J'aime apprendre de nouvelles technologies, trouver des solutions pertinentes aux 
+                                        problématiques rencontrées et chercher constamment à m'améliorer dans mon travail. 
+                                        Le développement web est pour moi bien plus qu’un travail, c'est une véritable passion 
+                                        qui est un moteur dans ma progression au quotidien.
+                                    </p>
+                                    <p class="lead handwriting">
+                                        Ce book a pour but de te faire découvrir mes compétences principales ainsi que 
+                                        quelques-uns de mes projets de développement personnels ou scolaires.
+                                    </p>
+                                    <!-- Liens icones pro -->
+                                    <div class="d-flex gap-3 mt-4 justify-content-center">
+                                        <a href="https://github.com/justlsia" target="_blank" class="text-dark fs-3">
+                                          <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/lisa-weermeer-247165250/" target="_blank" class="text-primary fs-3">
+                                          <i class="bi bi-linkedin"></i>
+                                        </a>
+                                      </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End : A propos -->
+
+    <!-- Compétences -->
+    <section id="skills" class="services-mf pt-5 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">
+                            Compétences
+                        </h3>
+                        <p class="subtitle-a">
+                        </br>
+                            Dans cette partie, je te présente les compétences que j’utilise régulièrement, que ce soit dans 
+                            le cadre de mes projets scolaires, professionnels ou personnels. Je suis très investi dans certaines 
+                            technologies et méthodologies et je m'efforce constamment de les améliorer afin de rester à jour et 
+                            toujours plus performante.
+                        </p>
+                        <div class="line-mf"></div>
+                        </br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Compétyence : Développement web -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <img src="img/icones/web-app.png" alt="Développement web" class="service-icon-img">
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Application web</h2>
+                            <p class="s-description text-center">
+                                Création d'applications web modernes, responsives et bien 
+                                structurées, dans le respect des standards du web. L’objectif : 
+                                concevoir des solutions optimisées, sécurisées et adaptées aux 
+                                besoins, offrant une expérience fluide et fiable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétence : BDD -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <img src="img/icones/database.png" alt="Développement web" class="service-icon-img">
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Base de données</h2>
+                            <p class="s-description text-center">
+                                Conception de structures de bases de données logiques et 
+                                adaptées aux besoins. Rédaction de requêtes claires et optimisées 
+                                pour garantir la fiabilité, la performance et la cohérence des 
+                                échanges avec le système.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétence : App logicielle -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <img src="img/icones/app-desk.png" alt="Développement web" class="service-icon-img">
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Application logicielle</h2>
+                            <p class="s-description text-center">
+                                Dans le cadre de mon alternance, je travaille sur des applications métiers 
+                                lourdes, que je maintiens et fais évoluer. Ce type de projet demande rigueur, 
+                                compréhension des besoins métier et capacité à lire, analyser et améliorer 
+                                un code existant.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétence : Gestion de projet -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <img src="img/icones/agile.png" alt="Développement web" class="service-icon-img">
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Gestion de projet</h2>
+                            <p class="s-description text-center">
+                                Pratique régulière de la méthodologie agile en environnement professionnel. 
+                                Ces approches collaboratives favorisent le bon déroulement des projets, en 
+                                mettant l’accent sur l’adaptabilité et la communication, aussi bien au sein 
+                                de l’équipe qu’avec les clients.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétence : UI/UX -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <img src="img/icones/uiux.png" alt="Expérience UI/UX" class="service-icon-img">
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Expérience UI/UX</h2>
+                            <p class="s-description text-center">
+                                Conception d’interfaces claires, intuitives et agréables, en 
+                                accord avec les principes de l’UI/UX. Utilisation d’outils comme 
+                                Figma pour réaliser des maquettes, des prototypes ou des éléments 
+                                visuels adaptés aux besoins du projet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Compétyence : API -->
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <img src="img/icones/api.png" alt="Utilisation d'API" class="service-icon-img">
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2 class="s-title">Utilisation d'API</h2>
+                            <p class="s-description text-center">
+                                Conception et intégration d’API pour permettre l’échange de 
+                                données entre le frontend et le backend. Maîtrise des principes 
+                                de communication client-serveur, avec une attention particulière 
+                                portée à la clarté des échanges, à la sécurité et à la performance 
+                                des requêtes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- End : Compétences -->
+
+
+    <!-- Projets -->
+    <section id="projects" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">Quelques-uns de mes projets</h3>
+                        <p class="subtitle-a"></br>Cette section présente quelques-uns de mes derniers 
+                            projets réalisés dans divers contextes (scolaire, collaboratif, événementiel). 
+                            Chaque projet met en avant des compétences techniques diverses, en mettant l'accent 
+                            sur la création de solutions fonctionnelles et la collaboration efficace dans 
+                            des applications concrètes et variées.
+                        </p>
+                        <div class="line-mf"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Projet : App Festivals -->
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="pages/projet-FestivalsApp.html" data-lightbox="gallery-mf">
+                            <div class="">
+                                <img src="img/projets/AppFestivals/P_Acceuil.png" alt="Projet App Festivals"
+                                    class="img-fluid">
+                            </div>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">App Festivals</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Application web</span> / <span
+                                                class="w-date">Février 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet : ToDo App -->
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="pages/projet-ToDoApp.html" data-lightbox="gallery-mf">
+                            <div class="work-img">
+                                <img src="img/projets/ToDoApp/P_Connexion.png" alt="Projet ToDo App" class="img-fluid">
+                            </div>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">ToDo App</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Catégorie</span> / <span class="w-date">Decembre
+                                                2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet : CineFlix -->
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="pages/projet-Cineflix.html" data-lightbox="gallery-mf">
+                            <div class="work-img">
+                                <img src="img/projets/CineFlix/P_Genre.png" alt="Projet 1" class="img-fluid">
+                            </div>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">CineFlix</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Application web</span> / <span class="w-date">Novembre
+                                                2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet : Quizz des profondeurs marines -->
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="pages/projet-QuizzProfondeursMarines.html" data-lightbox="gallery-mf">
+                            <div class="work-img">
+                                <img src="img/projets/QuizzProfondeursMarines/P_Fin.png" alt="Projet Quizz des profondeurs marines" class="img-fluid">
+                            </div>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Quizz des profondeurs marines</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Application web</span> / <span class="w-date">
+                                                2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet : Francofolies App -->
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="pages/projet-FrancoFoliesApp.html" data-lightbox="gallery-mf">
+                            <div class="work-img">
+                                <img src="img/projets/FrancoFoliesApp/P_Accueil.png" alt="Francofolies App" class="img-fluid">
+                            </div>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Francofolies App</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Application mobile</span> / <span class="w-date">Avril
+                                                2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet 1 -->
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="pages/projet-ComposantsSio.html" data-lightbox="gallery-mf">
+                            <div class="work-img">
+                                <img src="img/projets/ComposantsSio/P_Composants.png" alt="Composant SIO" class="img-fluid">
+                            </div>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Composants SIO</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">DLL</span> / <span class="w-date">Octobre
+                                                2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- End : Projets -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p class="copyright-text">
+                        Développé par <strong>Lisa W.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End : Contact -->
+
+
+
+
+
+</body>
+
+</html>

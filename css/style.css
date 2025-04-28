@@ -1,0 +1,332 @@
+/*
+* Navbar
+*/
+
+/* Conteneur de la navbar */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.2rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 80px;
+}
+
+/* Aligner le logo et les liens */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+/* Menu principal */
+.navbar-menu {
+    display: flex;
+}
+
+/* Liste des liens */
+.navbar-nav {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    padding: 1px 0;  
+    position: relative;
+
+}
+
+
+/* Animation soulignée au survol */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #be9ae8;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #b388e4;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+
+
+/*
+* Intro
+*/
+
+/* Apparition */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+/* Animation style machine à écrire */
+.animate-type {
+    overflow: hidden;
+    border-right: .15em solid #fff;
+    white-space: nowrap;
+    letter-spacing: .05em;
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .75s step-end infinite;
+    width: fit-content;
+}
+
+.handwriting-title {
+    font-family: 'Caveat', cursive;
+    font-size: 33px !important;
+}
+
+.handwriting {
+    font-family: 'Caveat', cursive;
+    font-size: 25px !important;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #fff
+    }
+}
+
+/* Image portrait */
+.portrait-img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.text-first {
+    position: absolute; 
+    z-index: 1000;
+    font-size: 20px;
+}
+
+#portrait-img {
+    margin-left: 3rem; 
+}
+
+/*
+* A propos
+*/
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-mf .box-shadow-full {
+    padding: 3rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-img img {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.title-box-2 {
+    margin-bottom: 30px;
+}
+
+.title-left {
+    font-weight: 600;
+    font-size: 24px;
+    border-left: 4px solid #be9ae8;
+    padding-left: 15px;
+}
+
+.skill-mf .progress {
+    margin-bottom: 1rem;
+    height: 10px;
+    background: #dddddd;
+    border-radius: 5px;
+}
+
+.skill-mf .progress-bar {
+    background-color: #be9ae8;
+}
+
+
+/*
+* Compétences
+*/
+.services-mf .service-box {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.services-mf .service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-circle {
+    width: 90px;
+    height: 90px;
+    background-color: #be9ae8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.service-content .s-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* 
+* Projets 
+*/
+.work-box {
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.work-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.work-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.work-content {
+    padding: 15px 20px;
+}
+
+.w-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #be9ae8;
+    text-decoration: underline #555;
+}
+
+.w-more {
+    color: #555;
+    font-size: 14px;
+    text-decoration: underline #555;
+}
+
+.w-like i {
+    color: #be9ae8;
+    font-size: 18px;
+}
+
+.title-box .line-mf {
+    width: 40px;
+    height: 3px;
+    background-color: #be9ae8;
+    margin: 20px auto;
+}
+
+
+
+
+.footer {
+    background: #222;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.footer .copyright-text {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+  

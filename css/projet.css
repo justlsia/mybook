@@ -1,0 +1,62 @@
+
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-mf .box-shadow-full {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-img img {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.title-box-2 {
+    margin-bottom: 30px;
+}
+
+.title-left {
+    font-weight: 600;
+    font-size: 24px;
+    border-left: 4px solid #ffafcc;
+    padding-left: 15px;
+}
+
+.skill-mf .progress {
+    margin-bottom: 1rem;
+    height: 10px;
+    background: #dddddd;
+    border-radius: 5px;
+}
+
+.skill-mf .progress-bar {
+    background-color: #ffafcc;
+}
+
+ul {
+    list-style: none;
+}
+
+#goGitHubProject {
+    background-color: #ffafcc; 
+    color: white;
+    border: none;
+}
+
+#send-mail:hover {
+    background-color: #fd92b9; 
+  }
+
+
+.shadow-custom {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    background-color: #fff;
+}
+  
+

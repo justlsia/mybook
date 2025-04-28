@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projet Todo App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="../css/projet.css"> 
+
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+  crossorigin="anonymous"></script>
+
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+  <!-- Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <section id="projet-details" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+
+              <!-- Colonne gauche : Infos projet -->
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="about-info">
+                      <h5 class="title-left">À propos du projet Todo App</h5>
+                      <hr>
+                      <p class="lead">
+                        
+                        Todo App est une application de gestion de tâches qui permet aux utilisateurs de 
+                        gérer efficacement leurs tâches personnelles grâce à une interface simple et 
+                        sécurisée, accessible après authentification. 
+                      </p>
+                      <p><span class="title-s fw-bold">Date de réalisation :</span> <span>Decembre 2024</span></p>
+                      <p><span class="title-s fw-bold">Technologies :</span> <span>C#, MySQL (SSMS)</span></p>
+                      <p><span class="title-s fw-bold">Environnement :</span> <span>Visual Studio</span></p>
+                      <p><span class="title-s fw-bold">Fonctionnalités principales :</span></p>
+                      <!-- Fonctionnalités -->
+                      <ul>
+                        <li>
+                          <img src="../img/icones/valid.png" alt="Icône UX/UI" style="width: 1em; height: 1em; vertical-align: middle; margin-right: 0.5em;">
+                          Création d’un compte utilisateur avec authentification</li>
+                        <li>
+                          <img src="../img/icones/valid.png" alt="Icône UX/UI" style="width: 1em; height: 1em; vertical-align: middle; margin-right: 0.5em;">
+                          Connexion sécurisée pour accéder à l’espace personnel</li>
+                        <li>
+                          <img src="../img/icones/valid.png" alt="Icône UX/UI" style="width: 1em; height: 1em; vertical-align: middle; margin-right: 0.5em;">
+                          Création de nouvelles tâches</li>
+                        <li>
+                          <img src="../img/icones/valid.png" alt="Icône UX/UI" style="width: 1em; height: 1em; vertical-align: middle; margin-right: 0.5em;">
+                          Modification et suppression de tâches existantes</li>
+                        <li>
+                          <img src="../img/icones/valid.png" alt="Icône UX/UI" style="width: 1em; height: 1em; vertical-align: middle; margin-right: 0.5em;">
+                          Visualisation d’un historique des tâches terminées</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Fonctionnalités -->
+                <div class="skill-mf mt-4">
+                  <!-- Description du projet -->
+                  <p class="lead">
+                    En utilisant l'application de gestion de tâches, les utilisateurs peuvent créer un 
+                    compte, se connecter et organiser leurs tâches quotidiennes. Chaque utilisateur a accès 
+                    à un tableau de bord pour ajouter, modifier ou supprimer des tâches, avec un suivi de 
+                    l’avancement. Les tâches terminées sont archivées dans un historique accessible. 
+                    L'application offre une interface simple et intuitive pour aider à la gestion du temps 
+                    et des priorités.
+                  </p>
+
+                  <!-- Bouton -->
+                  <div class="mt-4 d-flex justify-content-center">
+                    <a id="goGitHubProject" href="../index.html#projects" class="btn btn-pink rounded-pill ">Retour au book</a>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- fin row -->
+            
+            <!-- Carrousel dans la card, sous le texte -->
+            <div class="carousel-wrapper shadow-custom rounded mt-4">
+              <div id="carouselProjet" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/projets/ToDoApp/P_Connexion.png" class="d-block w-100 rounded" alt="Capture 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/projets/ToDoApp/P_AddTask.png" class="d-block w-100 rounded" alt="Capture 2">
+                  </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+            </div>
+
+          </div> <!-- fin box-shadow-full -->
+        </div> <!-- fin col-sm-12 -->
+      </div> <!-- fin row -->
+    </div> <!-- fin container -->
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
